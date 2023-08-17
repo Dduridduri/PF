@@ -12,7 +12,7 @@ $CateList.forEach((e,i)=>{
     //getAttribute = 속성값을 가져온다
     $CateList[i].classList.add("on")
 
-    axios.get("../data/data.json")
+    axios.get("data/data.json")
     .then(function(res){
       console.log(res)
       let PortData;
